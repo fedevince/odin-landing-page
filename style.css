@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color:#f9faf8;
+}
+
+.header-upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+}
