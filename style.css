@@ -63,3 +63,44 @@ button {
     max-width: 500px;
     flex: 1;
 }
+
+.upper-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px 50px 200px;
+    gap:10px;
+}
+.card-box ul {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border: solid 2px #3882f6;
+    border-radius: 5px;
+}
+
+.lower-middle {
+    background-color:#e5e7eb;
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 0;
+}
+
+#quotee {
+    align-self: flex-end;
+}
