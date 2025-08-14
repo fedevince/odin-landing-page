@@ -138,3 +138,10 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
+.copyright {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding:20px;
+    text-align: center;
+}
