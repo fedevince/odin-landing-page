@@ -74,17 +74,19 @@ button {
 
 .upper-middle h2 {
     text-align: center;
+
 }
 .card-box ul {
     display: flex;
     gap: 20px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    flex: auto;
     padding: 20px;
 }
 
@@ -95,9 +97,11 @@ button {
 .card img {
     border: solid 2px #1f2937;
     border-radius: 5px;
-    max-width: 100px;
+    max-width: 200px;
     min-height: 100px;
     margin-bottom: 5px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .lower-middle {
