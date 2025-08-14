@@ -67,23 +67,37 @@ button {
 .upper-middle {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     padding: 50px 200px 50px 200px;
     gap:10px;
+}
+
+.upper-middle h2 {
+    text-align: center;
 }
 .card-box ul {
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.card p {
+    max-width: 100px;
 }
 
 .card img {
-    border: solid 2px #3882f6;
+    border: solid 2px #1f2937;
     border-radius: 5px;
+    max-width: 100px;
+    min-height: 100px;
+    margin-bottom: 5px;
 }
 
 .lower-middle {
@@ -98,9 +112,28 @@ button {
     font-size: 36px;
     color: #1f2937;
     font-style: italic;
-    font-weight: 0;
+    font-weight: lighter;
 }
 
 #quotee {
     align-self: flex-end;
+}
+
+.call-action {
+    display: flex;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    justify-content: space-between;
+    padding: 40px 80px;
+    border-radius: 5px;
+}
+
+footer {
+    padding: 50px 200px 50px 200px;
+}
+
+
+.call-action-text {
+    display: flex;
+    flex-direction: column;
 }
